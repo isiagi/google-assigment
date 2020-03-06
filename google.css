@@ -1,28 +1,56 @@
+/*removing the list dots and spacing*/
 li{
     list-style-type: none;
     float: right;
     margin-right: 20px;
     text-decoration: none;
+    color: white;
 }
 
 a{
     text-decoration: none;
     color: black;
     opacity: 1;
+    color: white;
 }
 
 .all{
     position: absolute;
-    left: 500px;
+    left: 400px;
     margin-top: 80px;
 }
 #go{
     text-align: center;
-    margin-left: -50px; 
+    margin-left: -100px; 
     font-weight: 300px;
+    color: white;
 }
 
 .tt{
     font-size: 60px;
     font-weight: 600;
+
+}
+.tt:hover{
+    transform: scale(1.5);
+}
+
+#search{
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    color: blanchedalmond;
+}
+
+#button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+body{
+    background-image: url(./ehHBoW.jpg);
+}
+
+#form{
+    margin-top: -40px;
 }
